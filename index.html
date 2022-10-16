@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Rob Chal | DEV</title>
+  </head>
+  <body id="body">
+    <header>
+      <div class="border__nav"></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#body" class="active__link" onclick="setActiveLink(1)"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#blog" class="" onclick="setActiveLink(2)">Blog</a>
+          </li>
+          <li>
+            <a href="#about" class="" onclick="setActiveLink(3)">About</a>
+          </li>
+          <li class="eat__rest"></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger__menu">
+        <input type="checkbox" />
+
+        <!-- hamburger icon  -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!-- hamburger navigation  -->
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="blogs">
+        <article></article>
+        <article></article>
+      </div>
+      <aside>
+        <div class="profile__card">
+          <section class="profile__detail">
+            <h3>Robbany Chalif Arrahman</h3>
+            <h4>General Secretary, Student & Aspire To Be a Programmer</h4>
+            <p>
+              Hello everyone, nama saya Robbany Chalif Arrahman, kalian bisa
+              panggil saya dengan Nanu atau Aa.
+            </p>
+            <p>
+              Just aa aa yang pengen bisa ngoding, suka minum es sambil
+              mendengarkan lagu balad
+            </p>
+          </section>
+          <section class="profile__img--cont">
+            <img src="./assets/me.png" alt="" />
+          </section>
+        </div>
+        <div class="card__background"></div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer__content">
+        <p>You can find or add me as your friend here</p>
+        <div class="icons">
+          <a href=""
+            ><i class="fa-brands fa-instagram"><span>Instagram</span></i></a
+          >
+          <a href=""
+            ><i class="fa-brands fa-facebook"><span>Facebook</span></i></a
+          >
+          <a href=""
+            ><i class="fa-brands fa-twitter"><span>Twitter</span></i></a
+          >
+          <a href="https://www.linkedin.com/in/robbanychalif/"
+            ><i class="fa-brands fa-linkedin"><span>Linkedin</span></i></a
+          >
+          <a href="https://github.com/robChal31"
+            ><i class="fa-brands fa-github"><span>Github</span></i></a
+          >
+        </div>
+      </div>
+      <p class="copyright">
+        Made with love <i class="fa-sharp fa-solid fa-heart"></i>
+        &copy;2022 Robbany Chalif Arrahman
+      </p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
